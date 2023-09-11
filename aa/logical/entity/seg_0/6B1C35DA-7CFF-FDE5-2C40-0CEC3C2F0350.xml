@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B1C35DA-7CFF-FDE5-2C40-0CEC3C2F0350" name="cliente ">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:19:48 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1A323944-3E59-4B74-EB48-B90C2BE88917">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:21:36 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4BA7D393-2562-62FF-03B2-956ACFB22FC1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:23:00 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="88103E55-3461-8A63-BE4D-6D4D59FC3BDA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:24:25 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="A2526E57-1B16-60FB-C503-9C7DD68CD190">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:26:07 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="79B1388B-E6D0-052C-274D-5D96D790425B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:27:07 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="31AB8EAF-05C5-9540-BCA9-93338D3E6D68">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:27:39 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9DE5958-F260-94F0-C1BB-2910FDF0ADF8" name="cliente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:22:20 UTC</createdTime>
+<ownerDesignName>aa</ownerDesignName>
+<engineerTo>
+<item key="EEC17DB3-772C-A8C4-8179-055292CD2CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A323944-3E59-4B74-EB48-B90C2BE88917</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
